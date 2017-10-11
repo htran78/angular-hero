@@ -3,13 +3,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 
-import { HeroService } from './hero.service';
-import { AppRoutingModule } from './app-routing.module';
+import { HeroService } from './services/hero.service';
+import { AppRoutingModule } from './router/app-routing.module';
 
-import { AppComponent } from './app.component';
-import { HeroesComponent } from './heroes.component';
-import { HeroDetailComponent } from './hero-detail.component';
-import { DashboardComponent } from './dashboard.component';
+import { AppComponent } from './components/app/app.component';
+import { HeroesComponent } from './components/heroes/heroes.component';
+import { HeroDetailComponent } from './components/hero-detail/hero-detail.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
   imports: [
